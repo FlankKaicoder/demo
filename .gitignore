@@ -1,0 +1,24 @@
+# CMake / Qt Creator build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Qt Creator user-local project state
+*.pro.user
+*.pro.user.*
+*.user
+
+# Build outputs and runtime logs
+Power_Control/debug/
+Power_Control/release/
+Power_Control/*.o
+Power_Control/object_script.*
+Power_Control/logdata/
+Power_Control/mylog.txt
+Power_Control/logdatalog_*.txt
